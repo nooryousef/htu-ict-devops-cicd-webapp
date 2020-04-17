@@ -18,4 +18,11 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+  - task: AzureWebApp@1
+    inputs:
+      azureSubscription: 'azure primary'
+      appType: 'webAppLinux'
+      appName: 'yousef-noor-webapp-webapp'
+      package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
 
