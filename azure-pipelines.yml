@@ -18,6 +18,15 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+  - task: AzureRmWebAppDeployment@4
+    inputs:
+      ConnectionType: 'AzureRM'
+      azureSubscription: 'azure primary'
+      appType: 'webApp'
+      WebAppName: 'yousef _noor'
+      packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
+
 
 
 
