@@ -16,6 +16,7 @@ apt-get install build-essential python
 
 apt-get install python-dev
 
+yum install python-devel
 
 python3 -m venv venv
 sudo apt-get install -y python3-venv
