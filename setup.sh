@@ -30,7 +30,8 @@ pip install Flask
 
 source venv/bin/activate
 pip install -r requirements.txt
-export FLASK_APP=hello.py
+gunicorn --bind=0.0.0.0 --workers=4 hello:app
+
 flask run 
 
 
