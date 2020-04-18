@@ -12,6 +12,7 @@ sudo apt install python3
 sudo apt  install python3-pip
 sudo apt install gunicorn
 
+sudo pip3 install virtualenv 
 
 
 
