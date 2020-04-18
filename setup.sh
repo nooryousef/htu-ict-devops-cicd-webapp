@@ -1,11 +1,9 @@
 #! /bin/bash
 
 #author .
-
 #check if python is installed
 #gunciorn
 # Initialize, configure, and activate the Python virtual environment.
-
 #Install all required project dependencies.
  sudo apt-get update
 sudo apt install python3 
@@ -20,9 +18,6 @@ pip install gunicorn
 
 pip install uwsgi
 python uwsgiconfig.py --build
-
-
-
 
 pip install Flask
 
