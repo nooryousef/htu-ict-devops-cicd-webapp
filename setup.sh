@@ -18,7 +18,6 @@ pip install gunicorn
 
 pip install uwsgi
 python uwsgiconfig.py --build
-
 pip install Flask
 
 source venv/bin/activate
