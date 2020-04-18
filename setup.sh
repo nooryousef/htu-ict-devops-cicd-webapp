@@ -11,7 +11,7 @@
 sudo apt install python3
 sudo apt  install python3-pip
 sudo apt install gunicorn
-sudo apt-get install -y python3-pip
+
 
 
  
