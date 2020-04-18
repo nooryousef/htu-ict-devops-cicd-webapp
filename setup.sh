@@ -12,18 +12,19 @@ sudo apt install python3
 sudo apt  install python3-pip
 sudo apt install gunicorn
 sudo apt-get install python3-venv
+apt-get install build-essential python
+
 
 python3 -m venv venv
 sudo apt-get install -y python3-venv
 
 pip install Flask
 
-pip install -U https://github.com/pallets/flask/archive/master.tar.gz
 
 source venv/bin/activate
 pip install -r requirements.txt
 export FLASK_APP=hello.py
-flask run
+
 
 
 
