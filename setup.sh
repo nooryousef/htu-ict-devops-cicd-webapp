@@ -20,6 +20,7 @@ yum install python-devel
 
 python uwsgiconfig.py --build
 
+pip install uwsgi
 
 python3 -m venv venv
 sudo apt-get install -y python3-venv
