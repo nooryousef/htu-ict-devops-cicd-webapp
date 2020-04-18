@@ -14,6 +14,11 @@ sudo apt install gunicorn
 sudo apt-get install python3-venv
 python3 -m venv venv
 
+source venv/bin/activate
+pip install -r requirements.txt
+export FLASK_APP=hello.py
+flask run
+
 
 
 
