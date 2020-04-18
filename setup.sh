@@ -20,7 +20,7 @@ pip install Flask
 
 source venv/bin/activate
 pip install -r requirements.txt
-export FLASK_APP=application.py
+export FLASK_APP=hello.py
 
 
 
