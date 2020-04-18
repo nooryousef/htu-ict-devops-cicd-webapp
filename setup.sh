@@ -17,9 +17,13 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
+sudo apt-get install -y python3-venv
+
+
+
 gunicorn --bind=0.0.0.0 --workers=4 hello:app 
 export FLASK_APP=hello.py
-flask run
+flask un
 
 
 
