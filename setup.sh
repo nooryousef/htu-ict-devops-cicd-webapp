@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 export FLASK_APP=hello.py
 
-flask run
+gunicorn --bind=0.0.0.0 --workers=4 hello:app
 
 
 
