@@ -14,6 +14,8 @@ sudo apt install gunicorn
 sudo apt-get install python3-venv
 apt-get install build-essential python
 
+apt-get install python-dev
+
 
 python3 -m venv venv
 sudo apt-get install -y python3-venv
