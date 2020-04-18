@@ -23,6 +23,8 @@ pip install -U https://github.com/pallets/flask/archive/master.tar.gz
 source venv/bin/activate
 pip install -r requirements.txt
 export FLASK_APP=hello.py
+flask run
+
 
 
 
