@@ -18,11 +18,12 @@ sudo apt-get install -y python3-venv
 
 pip install Flask
 
+pip install -U https://github.com/pallets/flask/archive/master.tar.gz
+
 source venv/bin/activate
 pip install -r requirements.txt
 export FLASK_APP=hello.py
-gunicorn --bind=127.0.0.1 --workers=4 hello:app
-flask run
+
 
 
 
