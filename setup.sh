@@ -20,7 +20,7 @@ sudo apt-get install -y python3-venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-
+pip install Flask
 
 
 gunicorn --bind=0.0.0.0 --workers=4 hello:app 
