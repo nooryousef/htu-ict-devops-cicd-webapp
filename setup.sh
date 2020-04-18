@@ -10,7 +10,7 @@
 
 sudo apt install python3
 sudo apt  install python3-pip
-sudo python3 -m venv 
+sudo apt install gunicorn
 
 
 
