@@ -8,4 +8,4 @@
 
 #Install all required project dependencies.
 
-gunicorn --bind=0.0.0.0 --workers=4 hello:app
+
