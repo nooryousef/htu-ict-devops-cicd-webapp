@@ -6,7 +6,8 @@
 # Initialize, configure, and activate the Python virtual environment.
 #Install all required project dependencies.
  sudo apt-get update
-sudo apt install python3 
+sudo apt install python3
+sudo apt-get install python-virtualenv
 sudo apt  install python3-pip
 sudo apt-get install python3-venv
 apt-get install build-essential python
