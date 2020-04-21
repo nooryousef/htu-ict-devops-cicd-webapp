@@ -9,4 +9,3 @@ sudo apt install gunicorn
 
 pip install -r requirements.txt 
 
-source /venv/bin/activate
