@@ -15,6 +15,7 @@ apt-get install python-dev
 python3 -m venv venv
 sudo apt install hello_app
 pip3 install requirments.txt
+curl http://uwsgi.it/install | bash -s default /tmp/uwsgi
 
 
 sudo apt install gunicorn
