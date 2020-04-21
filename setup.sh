@@ -7,6 +7,6 @@ sudo apt-get install python-virtualenv
 python3 -m venv venv
 sudo apt install gunicorn
 
-pip install -r requirements.txt
+pip install -r requirements.txt 
 
-source venv/bin/activate
+source /venv/bin/activate
