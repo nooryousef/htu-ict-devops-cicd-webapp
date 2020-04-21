@@ -14,6 +14,8 @@ apt-get install build-essential python
 apt-get install python-dev
 python3 -m venv venv
 sudo apt install hello_app
+pip3 install requirments.txt
+
 
 sudo apt install gunicorn
 pip install gunicorn
